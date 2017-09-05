@@ -40,6 +40,11 @@ class Data
     {
         return $this->client->get('/v1/' . $path);
     }
+    
+    public function list($path)
+    {
+        return $this->client->get('/v1/' . $path . "?list=true");
+    }
 
     public function delete($path)
     {
