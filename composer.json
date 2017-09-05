@@ -1,5 +1,5 @@
 {
-    "name": "violuke/vault-php-sdk",
+    "name": "alteranancient/vault-php-sdk",
     "description": "SDK to talk with vaultproject.io API (Guzzle 6)",
     "license": "MIT",
     "authors": [
@@ -10,6 +10,9 @@
         {
             "name": "Christian Winther",
             "email": "jippignu@gmail.com"
+        },
+        {
+            "name": "David M"
         }
     ],
     "require": {
